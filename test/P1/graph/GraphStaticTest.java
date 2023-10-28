@@ -32,7 +32,7 @@ public class GraphStaticTest {
         assertEquals("expected empty() graph to have no vertices",
                 Collections.emptySet(), Graph.empty().vertices());
     }
-    
-    // TODO test other vertex label types in Problem 3.2
+
+    // I have done toString
     
 }
