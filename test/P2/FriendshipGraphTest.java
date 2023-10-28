@@ -8,6 +8,7 @@ import java.util.*;
 
 import static org.junit.Assert.*;
 
+//test
 /** 
 * FriendshipGraph Tester.
 */ 
