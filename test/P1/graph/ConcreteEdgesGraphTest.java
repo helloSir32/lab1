@@ -31,8 +31,7 @@ public class ConcreteEdgesGraphTest extends GraphInstanceTest {
     // 划分等价类:
     // 空图和非空图
     // toString格式"source-weight-target,..."
-    
-    // TODO tests for ConcreteEdgesGraph.toString()
+
     @Test
     public void testToString(){
         Graph<String>testGraph = emptyInstance();
@@ -56,8 +55,7 @@ public class ConcreteEdgesGraphTest extends GraphInstanceTest {
     //正确定义的edge
     //toString方法划分:
     //格式"source-weight-target"
-    
-    // TODO tests for operations of Edge
+
     @Test
     public void testGetSource(){
         Edge e = new Edge("hello","bro",2);

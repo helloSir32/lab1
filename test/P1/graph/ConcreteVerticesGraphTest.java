@@ -35,8 +35,7 @@ public class ConcreteVerticesGraphTest extends GraphInstanceTest {
     // 划分等价类：
     //空图和非空图
     //toString格式：source-weight-target,...
-    
-    // TODO tests for ConcreteVerticesGraph.toString()
+
     @Test
     public void testToString(){
         Graph<String>testGraph = emptyInstance();
@@ -65,8 +64,7 @@ public class ConcreteVerticesGraphTest extends GraphInstanceTest {
     //weight:正整数
     //toString：
     //格式：“source-weight-target,...”
-    
-    // TODO tests for operations of Vertex
+
     @Test
     public void testGetWeight(){
         Vertex v = new Vertex("hello");
