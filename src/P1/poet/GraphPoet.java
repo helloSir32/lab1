@@ -13,6 +13,8 @@ import P1.graph.Graph;
 
 import javax.imageio.event.IIOReadProgressListener;
 
+
+//I have done this work!
 /**
  * A graph-based poetry generator.
  * 
@@ -55,6 +57,7 @@ import javax.imageio.event.IIOReadProgressListener;
  * You MUST use Graph in your rep, but otherwise the implementation of this
  * class is up to you.
  */
+
 public class GraphPoet {
     
     private final Graph<String> graph = Graph.empty();

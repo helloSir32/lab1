@@ -21,13 +21,10 @@ public class ConcreteVerticesGraph<L> implements Graph<L> {
     // Safety from rep exposure:
     //   vertices为list可变类型，所以采用防御式拷贝
     //   所有属性都为private
-    
-    // TODO constructor
 
     public ConcreteVerticesGraph() {
     }
 
-    // TODO checkRep
     public void checkRep(){
         Set<L>ver = new HashSet<>();
         Iterator<Vertex<L>>iterator = vertices.iterator();

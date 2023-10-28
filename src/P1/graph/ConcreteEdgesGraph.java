@@ -26,7 +26,6 @@ public class ConcreteEdgesGraph<L> implements Graph<L> {
 
     public ConcreteEdgesGraph() {
     }
-    // TODO checkRep
     public void checkRep(){
         Iterator<L> vIterator = vertices.iterator();
         while (vIterator.hasNext()){
@@ -194,7 +193,6 @@ class Edge<L> {
     public int getWeight() {
         return weight;
     }
-    // TODO toString()
 
     /**
      * 将ADT转换为可读的字符串
