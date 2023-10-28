@@ -33,6 +33,7 @@ public class ConcreteEdgesGraphTest extends GraphInstanceTest {
     // toString格式"source-weight-target,..."
     
     // I have done toString
+
     @Test
     public void testToString(){
         Graph<String>testGraph = emptyInstance();

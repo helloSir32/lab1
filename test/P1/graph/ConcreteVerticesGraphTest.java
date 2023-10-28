@@ -36,7 +36,10 @@ public class ConcreteVerticesGraphTest extends GraphInstanceTest {
     //空图和非空图
     //toString格式：source-weight-target,...
 
+<<<<<<< HEAD
     // I have done toString
+=======
+>>>>>>> C4
     @Test
     public void testToString(){
         Graph<String>testGraph = emptyInstance();
