@@ -168,7 +168,6 @@ class Edge<L> {
         assert !source.equals("") :"边的起始点为空";
         assert weight > 0 :"权值为非正整数";
     }
-    // TODO methods
 
     /**
      * 获取起点
