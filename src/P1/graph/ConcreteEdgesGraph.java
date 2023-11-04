@@ -14,15 +14,6 @@ public class ConcreteEdgesGraph<L> implements Graph<L> {
     private final Set<L> vertices = new HashSet<>();
     private final List<Edge<L>> edges = new ArrayList<>();
     
-    // Abstraction function:
-    //   AF(vertices,edges) = 包含vertices中的点，包含edges中的带权有向边的图
-    // Representation invariant:
-    //   vertices是点的集合
-    //   edges是带权有向边的列表，其中包含的点必在vertices中，且每条边的权值为正整数
-    // Safety from rep exposure:
-    //   所有属性都是private final
-    //   vertices是set，是可变类型，但是只能通过add方法和构造函数添加点，获取vertices也通过vertices方法利用防御性复制给用户新的set
-    //   edges是list可变类型，但是没有方法直接获取，可以通过sources和targets获取边的信息
 
     public ConcreteEdgesGraph() {
     }
